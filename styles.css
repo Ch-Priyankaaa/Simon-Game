@@ -1,0 +1,78 @@
+body{
+    background-color : #628395;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Play', sans-serif;
+    font-size: 70px;
+    padding-bottom: 6%;
+}
+
+
+h4{
+    font-family: 'Play', sans-serif;
+    font-size: 40px;
+    margin : 0;
+    padding : 38% 0;
+    position: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+  width: 40%;
+  align-items: center;
+  margin : auto;
+}
+
+.game{
+    width : 250px;
+    height : 250px;
+    border-radius : 100%;
+    background-color: white;
+}
+
+.buttonClicked{
+    opacity : 0.5;
+}
+.pressed {
+    box-shadow: 0 0 40px white;
+  }
+
+.btn{
+    width : 250px;
+    height : 250px;
+    display : inline-block;
+    border : 6px  solid;
+}
+
+.red{
+    background-color :red;
+    border-top-left-radius: 100%;
+}
+
+.green{
+    background-color :green;
+    border-top-right-radius : 100%;
+}
+
+.blue{
+    background-color: blue;
+    border-bottom-left-radius : 100%
+}
+
+.yellow{
+    background-color :yellow;
+    border-bottom-right-radius : 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .btn{
+        width : 40%;
+    }
+    .container{
+        width : 60%;
+    }
+  }
